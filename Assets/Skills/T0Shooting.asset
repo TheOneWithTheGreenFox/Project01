@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d66b40d1fe7fa34bbfe77a791602bd9, type: 3}
+  m_Name: T0Shooting
+  m_EditorClassIdentifier: 
+  Name: Shooting!
+  Description: Unlocks your bow
+  unlocked: 0
+  canBeBrought: 1
+  Dependants:
+  - {fileID: 11400000, guid: eca804f99a5182a45b3b839d6b66a78c, type: 2}
+  - {fileID: 11400000, guid: 03ee82ad5cfc6da44b3e3f7ada46f263, type: 2}
+  - {fileID: 11400000, guid: 2d794c46d954b6e4e884d1b823709b20, type: 2}
+  - {fileID: 11400000, guid: d12845a5eaa6d494a9b2b85cd69e5719, type: 2}
